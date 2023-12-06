@@ -2,9 +2,11 @@ package com.example.ujianandroid;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -42,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
                     edNamaBelakang.setText("");
                     intent_list.putStringArrayListExtra("daftar_nama", daftar_nama);
                     startActivity(intent_list);
+
                 }
             }
         });

@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UjianAndroid">
         <activity
+            android:name=".LIst_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityUts"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -20,9 +26,7 @@
         </activity>
         <activity
             android:name=".ListActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>
